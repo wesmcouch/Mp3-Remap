@@ -59,6 +59,7 @@
             this.browseBtn.TabIndex = 1;
             this.browseBtn.Text = "Browse";
             this.browseBtn.UseVisualStyleBackColor = true;
+            this.browseBtn.Click += new System.EventHandler(this.browseBtn_Click);
             // 
             // txtPath
             // 
@@ -110,6 +111,7 @@
             this.btnLoadSongs.TabIndex = 4;
             this.btnLoadSongs.Text = "Load Songs";
             this.btnLoadSongs.UseVisualStyleBackColor = true;
+            this.btnLoadSongs.Click += new System.EventHandler(this.btnLoadSongs_Click);
             // 
             // btnSave
             // 
@@ -119,6 +121,7 @@
             this.btnSave.TabIndex = 5;
             this.btnSave.Text = "Save";
             this.btnSave.UseVisualStyleBackColor = true;
+            this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
             // 
             // Form1
             // 
